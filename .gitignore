@@ -1,0 +1,39 @@
+# Anchor
+.anchor
+**/*.rs.bk
+test-ledger
+
+# Solana
+target/
+!target/deploy/
+!target/idl/
+!target/types/
+
+# Dependencies
+node_modules/
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
